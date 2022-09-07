@@ -18,4 +18,4 @@ class Bot:
     def run(self):
         for plugin in self._plugins:
             print(isinstance(plugin, PluginBase))
-            plugin.process()
+            plugin.print()
